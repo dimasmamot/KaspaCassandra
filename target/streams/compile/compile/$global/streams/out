@@ -1,0 +1,67 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:114:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.device_id[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:115:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.year[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:116:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.month[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:117:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.day[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:118:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.hour[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:119:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.minute[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:120:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.second[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:121:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.protocol[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:122:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.ip_type[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:123:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.src_mac[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:124:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.dest_mac[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:125:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.src_ip[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:126:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.dest_ip[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:127:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.src_port[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:128:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.dst_port [0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:129:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.alert_msg[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:130:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.classification[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:131:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.priority[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:132:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.sig_id[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:133:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.sig_gen[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:134:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.sig_rev[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hduser/Mamot/KaspaCoreCass/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala:135:15: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
+[0m[[0m[33mwarn[0m] [0m[0m        value.src_country[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m22 warnings found[0m
