@@ -40,7 +40,7 @@ object CassandraStreamJob extends CassandraUtils {
     def processRow(value: Commons.EventObj) = {
       connector.withSessionDo{
         session =>
-          session.execute(Statements.cql(randomUUID(), value.device_id, value.year, value.month, value.day, value.hour,
+          session.execute(Statements.push_raw_event(randomUUID(), value.device_id, value.year, value.month, value.day, value.hour,
             value.minute, value.second, value.protocol, value.ip_type, value.src_mac, value.dest_mac,
             value.src_ip, value.dest_ip, value.src_port.toInt, value.dst_port.toInt, value.alert_msg, value.classification,
             value.priority, value.sig_id, value.sig_gen, value.sig_rev, value.src_country))
