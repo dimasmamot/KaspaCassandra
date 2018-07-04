@@ -28,3 +28,5 @@ all {file:/home/hduser/Mamot/KaspaCoreCass/}kaspacorecass/products {file:/home/h
 all {file:/home/hduser/Mamot/KaspaCoreCass/}kaspacorecass/products {file:/home/hduser/Mamot/KaspaCoreCass/}kaspacorecass/test:products
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
 all {file:/home/hduser/Mamot/KaspaCoreCass/}kaspacorecass/products {file:/home/hduser/Mamot/KaspaCoreCass/}kaspacorecass/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /tmp/sbt-structure.xml; session clear-all
+all {file:/home/hduser/live-dashboard/KaspaCassandra/}kaspacassandra/products {file:/home/hduser/live-dashboard/KaspaCassandra/}kaspacassandra/test:products
