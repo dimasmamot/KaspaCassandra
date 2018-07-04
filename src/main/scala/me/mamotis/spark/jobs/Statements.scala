@@ -60,15 +60,87 @@ object Statements extends Serializable {
                                          |"value") values ('$company', $year, $month, $day, $value)
                                        """.stripMargin
 
-  def push_event_hit_company_month(company: String, year: Integer, month: Integer, value: Long): String =
+  def push_event_hit_device_id_second(device_id: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                      second: Integer, value: Long): String =
                                       s"""
-                                         |INSERT INTO kaspa.event_hit_on_company_sec ("company", "year", "month", "day",
-                                         |"hour", "minute", "second", "value") values ('$company', $year, $month, $value)
+                                         |INSERT INTO kaspa.event_hit_on_device_id_sec ("device_id", "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$device_id', $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
                                        """.stripMargin
 
-  def push_event_hit_company_year(company: String, year: Integer, value: Long): String =
+  def push_event_hit_device_id_minute(device_id: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                      value: Long): String =
                                       s"""
-                                         |INSERT INTO kaspa.event_hit_on_company_sec ("company", "year", "month", "day",
-                                         |"hour", "minute", "second", "value") values ('$company', $year, $value)
+                                         |INSERT INTO kaspa.event_hit_on_device_id_minute ("device_id", "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$device_id', $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_event_hit_device_id_hour(device_id: String, year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.event_hit_on_device_id_hour ("device_id", "year", "month", "day",
+                                         |"hour", "value") values ('$device_id', $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_event_hit_device_id_day(device_id: String, year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.event_hit_on_device_id_day ("device_id", "year", "month", "day",
+                                         |"value") values ('$device_id', $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_company_second(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                    second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.signature_hit_on_company_sec ("company", "alert_msg", "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$company', '$alert_msg', $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_company_minute(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                        value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.signature_hit_on_company_minute ("company", "alert_msg", "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$company', '$alert_msg', $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_company_hour(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.signature_hit_on_company_hour ("company", "alert_msg", "year", "month", "day",
+                                         |"hour", "value") values ('$company', '$alert_msg', $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_company_day(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.signature_hit_on_company_day ("company", "alert_msg", "year", "month", "day",
+                                         |"value") values ('$company', '$alert_msg', $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_device_id_second(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                          second: Integer, value: Long): String =
+                                        s"""
+                                           |INSERT INTO kaspa.signature_hit_on_device_id_sec ("device_id", "alert_msg", "year", "month", "day",
+                                           |"hour", "minute", "second", "value") values ('$device_id', '$alert_msg', $year, $month,
+                                           |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_device_id_minute(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                          value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.signature_hit_on_device_id_minute ("device_id", "alert_msg", "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$device_id', '$alert_msg', $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_device_id_hour(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.signature_hit_on_device_id_hour ("device_id", "alert_msg", "year", "month", "day",
+                                         |"hour", "value") values ('$device_id', '$alert_msg', $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_signature_hit_device_id_day(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.signature_hit_on_device_id_day ("device_id", "alert_msg", "year", "month", "day",
+                                         |"value") values ('$device_id', '$alert_msg', $year, $month, $day, $value)
                                        """.stripMargin
 }

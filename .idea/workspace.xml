@@ -2,121 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c55fa93-92a4-4838-8ce6-eae63b8d3dc4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kaspacorecass-build.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/kaspacorecass.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f407f312238e60c9c22$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f407f312238e60c9c22.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f407f312238e60c9c22.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f52026310b2147c6dbf$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f52026310b2147c6dbf.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f52026310b2147c6dbf.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$25604ded3113fe99f5dc$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$25604ded3113fe99f5dc.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$25604ded3113fe99f5dc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$291de58e5fdd5d1d8cb8$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$291de58e5fdd5d1d8cb8.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$291de58e5fdd5d1d8cb8.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$30e93f178de9fec70077$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$30e93f178de9fec70077.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$30e93f178de9fec70077.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38fbaba05fb7f2f4aa4b$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38fbaba05fb7f2f4aa4b.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38fbaba05fb7f2f4aa4b.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e46216a89eea2696b6c$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e46216a89eea2696b6c.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3e46216a89eea2696b6c.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4e67afa09932e89e64ef$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4e67afa09932e89e64ef.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4e67afa09932e89e64ef.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$53f7e6aec8360362da40$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$53f7e6aec8360362da40.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$53f7e6aec8360362da40.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5beb13337bb587237c0f$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5beb13337bb587237c0f.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$5beb13337bb587237c0f.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8715909dcd613595ae96$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8715909dcd613595ae96.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8715909dcd613595ae96.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c6b8743156a543eba7a$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c6b8743156a543eba7a.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8c6b8743156a543eba7a.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a01005df8e867ab7571b$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a01005df8e867ab7571b.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a01005df8e867ab7571b.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a74d9afe0099d31c4c37$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a74d9afe0099d31c4c37.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a74d9afe0099d31c4c37.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad0338557269abfe1512$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad0338557269abfe1512.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ad0338557269abfe1512.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d19c7d51d1b15ea667b8$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d19c7d51d1b15ea667b8.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d19c7d51d1b15ea667b8.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f2a7ef863e6409f27bbe$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f2a7ef863e6409f27bbe.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f2a7ef863e6409f27bbe.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6e595ff8728fe6b0964$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6e595ff8728fe6b0964.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6e595ff8728fe6b0964.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fa1fb9d3b67cd3ff7665$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fa1fb9d3b67cd3ff7665.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$fa1fb9d3b67cd3ff7665.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraUtils.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraUtils.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala" />
-      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anon$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anon$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anon$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anon$2.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anonfun$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$anonfun$2.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator2$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator2$1.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator3$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator3$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator5$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator5$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator7$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$$typecreator7$1.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraStreamJob$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraUtils$class.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/CassandraUtils$class.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/ColsArtifact$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/ColsArtifact$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/ColsArtifact.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/ColsArtifact.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$EventObj$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$EventObj$.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$EventObj.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$EventObj.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$EventHitObjSec$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons$EventHitObjSec.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Commons.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/PushArtifact$$anonfun$pushEventHitCompanySec$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/PushArtifact$$anonfun$pushEventHitCompanySec$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/PushArtifact$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/PushArtifact$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/PushArtifact.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/PushArtifact.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Statements$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Statements$.class" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Statements.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/me/mamotis/spark/jobs/Statements.class" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.1.7/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.1.7/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.1.7/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/org.scala-sbt.temp/temp-module-518b91374cbcb06003d475b7704c2316602396eb/1.1.7/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/org.scala-sbt.temp-temp-module-518b91374cbcb06003d475b7704c2316602396eb-test.xml" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.11.zip" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/internalDependencyClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -136,75 +51,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Commons.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala">
+      <file leaf-file-name="PushArtifact.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="23" column="108" lean-forward="false" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CassandraStreamJob.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="278">
+              <caret line="140" column="3" lean-forward="false" selection-start-line="140" selection-start-column="3" selection-end-line="140" selection-end-column="3" />
               <folding>
-                <element signature="e#1743#1792#0" expanded="false" />
-                <element signature="e#2082#2326#0" expanded="false" />
-                <element signature="e#2331#3641#0" expanded="false" />
-                <element signature="e#3384#3635#0" expanded="false" />
-                <element signature="e#3711#4015#0" expanded="false" />
-                <element signature="e#4200#4243#0" expanded="false" />
-                <element signature="e#4303#4325#0" expanded="false" />
-                <element signature="e#4333#4415#0" expanded="false" />
-                <element signature="e#4542#5086#0" expanded="false" />
-                <element signature="e#5004#5080#0" expanded="false" />
-                <element signature="e#5190#5276#0" expanded="false" />
-                <element signature="e#5391#5434#0" expanded="false" />
-                <element signature="e#5494#5516#0" expanded="false" />
-                <element signature="e#5524#5606#0" expanded="false" />
-                <element signature="e#5733#6223#0" expanded="false" />
-                <element signature="e#6327#6402#0" expanded="false" />
-                <element signature="e#6516#6559#0" expanded="false" />
-                <element signature="e#6619#6641#0" expanded="false" />
-                <element signature="e#6649#6729#0" expanded="false" />
-                <element signature="e#6858#7297#0" expanded="false" />
-                <element signature="e#7404#7468#0" expanded="false" />
-                <element signature="e#7581#7624#0" expanded="false" />
-                <element signature="e#7684#7706#0" expanded="false" />
-                <element signature="e#7714#7793#0" expanded="false" />
-                <element signature="e#7920#8313#0" expanded="false" />
-                <element signature="e#8417#8472#0" expanded="false" />
-                <element signature="e#8588#8631#0" expanded="false" />
-                <element signature="e#8691#8713#0" expanded="false" />
-                <element signature="e#8721#8802#0" expanded="false" />
-                <element signature="e#8933#9284#0" expanded="false" />
-                <element signature="e#9551#9594#0" expanded="false" />
-                <element signature="e#9654#9676#0" expanded="false" />
-                <element signature="e#9684#9764#0" expanded="false" />
-                <element signature="e#9893#10194#0" expanded="false" />
-                <element signature="e#10564#10828#0" expanded="false" />
-                <element signature="e#10907#11188#0" expanded="false" />
-                <element signature="e#11267#11548#0" expanded="false" />
-                <element signature="e#11629#11912#0" expanded="false" />
-                <element signature="e#11991#12272#0" expanded="false" />
-                <element signature="e#12355#12640#0" expanded="false" />
-                <element signature="e#12721#13004#0" expanded="false" />
+                <element signature="e#1195#1530#0" expanded="false" />
+                <element signature="e#1534#1855#0" expanded="false" />
+                <element signature="e#1859#2156#0" expanded="false" />
+                <element signature="e#2160#2442#0" expanded="false" />
+                <element signature="e#2446#2787#0" expanded="false" />
+                <element signature="e#2791#3118#0" expanded="false" />
+                <element signature="e#3122#3425#0" expanded="false" />
+                <element signature="e#3429#3717#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PushArtifact.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala">
+      <file leaf-file-name="CassandraSignatureStreamJob.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraSignatureStreamJob.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="59" column="80" lean-forward="true" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="80" />
+            <state relative-caret-position="295">
+              <caret line="424" column="27" lean-forward="true" selection-start-line="424" selection-start-column="27" selection-end-line="424" selection-end-column="27" />
               <folding>
-                <element signature="e#149#1191#0" expanded="false" />
+                <element signature="e#31#56#0" expanded="true" />
+                <element signature="e#2027#2070#0" expanded="false" />
+                <element signature="e#2144#2166#0" expanded="false" />
+                <element signature="e#2174#2270#0" expanded="false" />
+                <element signature="e#2419#3028#0" expanded="false" />
+                <element signature="e#3151#3251#0" expanded="false" />
+                <element signature="e#3384#3427#0" expanded="false" />
+                <element signature="e#3501#3523#0" expanded="false" />
+                <element signature="e#3531#3627#0" expanded="false" />
+                <element signature="e#3776#4331#0" expanded="false" />
+                <element signature="e#4454#4543#0" expanded="false" />
+                <element signature="e#4675#4718#0" expanded="false" />
+                <element signature="e#4792#4814#0" expanded="false" />
+                <element signature="e#4822#4916#0" expanded="false" />
+                <element signature="e#5067#5571#0" expanded="false" />
+                <element signature="e#5697#5775#0" expanded="false" />
+                <element signature="e#5906#5949#0" expanded="false" />
+                <element signature="e#6023#6045#0" expanded="false" />
+                <element signature="e#6053#6146#0" expanded="false" />
+                <element signature="e#6295#6753#0" expanded="false" />
+                <element signature="e#6876#6945#0" expanded="false" />
+                <element signature="e#7159#7202#0" expanded="false" />
+                <element signature="e#7278#7300#0" expanded="false" />
+                <element signature="e#7308#7406#0" expanded="false" />
+                <element signature="e#7559#8173#0" expanded="false" />
+                <element signature="e#8299#8401#0" expanded="false" />
+                <element signature="e#8536#8579#0" expanded="false" />
+                <element signature="e#8655#8677#0" expanded="false" />
+                <element signature="e#8685#8783#0" expanded="false" />
+                <element signature="e#8936#9496#0" expanded="false" />
+                <element signature="e#9622#9713#0" expanded="false" />
+                <element signature="e#9847#9890#0" expanded="false" />
+                <element signature="e#9966#9988#0" expanded="false" />
+                <element signature="e#9996#10092#0" expanded="false" />
+                <element signature="e#10247#10756#0" expanded="false" />
+                <element signature="e#10885#10965#0" expanded="false" />
+                <element signature="e#11098#11141#0" expanded="false" />
+                <element signature="e#11217#11239#0" expanded="false" />
+                <element signature="e#11247#11342#0" expanded="false" />
+                <element signature="e#11495#11958#0" expanded="false" />
+                <element signature="e#12084#12155#0" expanded="false" />
+                <element signature="e#12432#12728#0" expanded="false" />
+                <element signature="e#12822#13118#0" expanded="false" />
+                <element signature="e#13214#13512#0" expanded="false" />
+                <element signature="e#13606#13902#0" expanded="false" />
+                <element signature="e#13998#14296#0" expanded="false" />
+                <element signature="e#14392#14690#0" expanded="false" />
+                <element signature="e#14788#15088#0" expanded="false" />
+                <element signature="e#15184#15482#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -213,31 +133,9 @@
       <file leaf-file-name="Statements.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-759">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="-62">
+              <caret line="124" column="54" lean-forward="true" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ColsArtifact.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CassandraUtils.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraUtils.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-              <folding>
-                <element signature="e#31#80#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -247,6 +145,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>src_port</find>
+      <find>company</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -265,15 +164,16 @@
         <option value="$USER_HOME$/IdeaProjects/test/src/main/scala/spark/TimeTest.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraUtils.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraSignatureStreamJob.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1280" />
     <option name="height" value="504" />
   </component>
@@ -352,7 +252,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CassandraStreamJob">
+  <component name="RunManager" selected="Application.CassandraSignatureStreamJob">
+    <configuration name="CassandraSignatureStreamJob" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="me.mamotis.spark.jobs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="me.mamotis.spark.jobs.CassandraSignatureStreamJob" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="kaspacassandra" />
+      <envs />
+    </configuration>
     <configuration name="CassandraStreamJob" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -360,7 +279,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="me.mamotis.spark.jobs.CassandraStreamJob" />
+      <option name="MAIN_CLASS_NAME" value="me.mamotis.spark.jobs.CassandraEventStreamJob" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -477,18 +396,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.TimeTest" />
       <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
       <item index="2" class="java.lang.String" itemvalue="Application.TimeTest (1)" />
       <item index="3" class="java.lang.String" itemvalue="Application.CassandraStreamJob" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CassandraSignatureStreamJob" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.CassandraStreamJob" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TimeTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TimeTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.CassandraSignatureStreamJob" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CassandraStreamJob" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TimeTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TimeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -551,7 +472,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="998" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="998" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -562,12 +484,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45558086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45558086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5330296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -591,7 +513,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -600,14 +522,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="104" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -626,53 +540,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2941">
           <caret line="173" column="46" lean-forward="true" selection-start-line="173" selection-start-column="46" selection-end-line="173" selection-end-column="46" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,53 +556,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +569,7 @@
         <state relative-caret-position="187">
           <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,53 +592,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="96" column="11" lean-forward="false" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,53 +617,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +644,7 @@
         <state relative-caret-position="165">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,53 +656,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -979,7 +683,7 @@
         <state relative-caret-position="165">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -991,53 +695,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,7 +715,7 @@
         <state relative-caret-position="165">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1065,53 +727,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +747,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1139,53 +759,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,7 +779,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1225,58 +803,16 @@
         <state relative-caret-position="180">
           <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="49" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,53 +830,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,7 +843,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="49" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1376,96 +870,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="23" column="108" lean-forward="false" selection-start-line="23" selection-start-column="108" selection-end-line="23" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
-            <element signature="e#31#80#0" expanded="true" />
+            <element signature="e#31#80#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="455" column="38" lean-forward="false" selection-start-line="455" selection-start-column="38" selection-end-line="455" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        <state relative-caret-position="394">
+          <caret line="38" column="102" lean-forward="false" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="54" column="156" lean-forward="false" selection-start-line="54" selection-start-column="156" selection-end-line="54" selection-end-column="156" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="-62">
+          <caret line="124" column="54" lean-forward="true" selection-start-line="124" selection-start-column="54" selection-end-line="124" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="59" column="80" lean-forward="true" selection-start-line="59" selection-start-column="80" selection-end-line="59" selection-end-column="80" />
+        <state relative-caret-position="278">
+          <caret line="140" column="3" lean-forward="false" selection-start-line="140" selection-start-column="3" selection-end-line="140" selection-end-column="3" />
           <folding>
-            <element signature="e#149#1191#0" expanded="false" />
+            <element signature="e#1195#1530#0" expanded="false" />
+            <element signature="e#1534#1855#0" expanded="false" />
+            <element signature="e#1859#2156#0" expanded="false" />
+            <element signature="e#2160#2442#0" expanded="false" />
+            <element signature="e#2446#2787#0" expanded="false" />
+            <element signature="e#2791#3118#0" expanded="false" />
+            <element signature="e#3122#3425#0" expanded="false" />
+            <element signature="e#3429#3717#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraStreamJob.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraSignatureStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="295">
+          <caret line="424" column="27" lean-forward="true" selection-start-line="424" selection-start-column="27" selection-end-line="424" selection-end-column="27" />
           <folding>
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#2082#2326#0" expanded="false" />
-            <element signature="e#2331#3641#0" expanded="false" />
-            <element signature="e#3384#3635#0" expanded="false" />
-            <element signature="e#3711#4015#0" expanded="false" />
-            <element signature="e#4200#4243#0" expanded="false" />
-            <element signature="e#4303#4325#0" expanded="false" />
-            <element signature="e#4333#4415#0" expanded="false" />
-            <element signature="e#4542#5086#0" expanded="false" />
-            <element signature="e#5004#5080#0" expanded="false" />
-            <element signature="e#5190#5276#0" expanded="false" />
-            <element signature="e#5391#5434#0" expanded="false" />
-            <element signature="e#5494#5516#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5733#6223#0" expanded="false" />
-            <element signature="e#6327#6402#0" expanded="false" />
-            <element signature="e#6516#6559#0" expanded="false" />
-            <element signature="e#6619#6641#0" expanded="false" />
-            <element signature="e#6649#6729#0" expanded="false" />
-            <element signature="e#6858#7297#0" expanded="false" />
-            <element signature="e#7404#7468#0" expanded="false" />
-            <element signature="e#7581#7624#0" expanded="false" />
-            <element signature="e#7684#7706#0" expanded="false" />
-            <element signature="e#7714#7793#0" expanded="false" />
-            <element signature="e#7920#8313#0" expanded="false" />
-            <element signature="e#8417#8472#0" expanded="false" />
-            <element signature="e#8588#8631#0" expanded="false" />
-            <element signature="e#8691#8713#0" expanded="false" />
-            <element signature="e#8721#8802#0" expanded="false" />
-            <element signature="e#8933#9284#0" expanded="false" />
-            <element signature="e#9551#9594#0" expanded="false" />
-            <element signature="e#9654#9676#0" expanded="false" />
-            <element signature="e#9684#9764#0" expanded="false" />
-            <element signature="e#9893#10194#0" expanded="false" />
-            <element signature="e#10564#10828#0" expanded="false" />
-            <element signature="e#10907#11188#0" expanded="false" />
-            <element signature="e#11267#11548#0" expanded="false" />
-            <element signature="e#11629#11912#0" expanded="false" />
-            <element signature="e#11991#12272#0" expanded="false" />
-            <element signature="e#12355#12640#0" expanded="false" />
-            <element signature="e#12721#13004#0" expanded="false" />
+            <element signature="e#31#56#0" expanded="true" />
+            <element signature="e#2027#2070#0" expanded="false" />
+            <element signature="e#2144#2166#0" expanded="false" />
+            <element signature="e#2174#2270#0" expanded="false" />
+            <element signature="e#2419#3028#0" expanded="false" />
+            <element signature="e#3151#3251#0" expanded="false" />
+            <element signature="e#3384#3427#0" expanded="false" />
+            <element signature="e#3501#3523#0" expanded="false" />
+            <element signature="e#3531#3627#0" expanded="false" />
+            <element signature="e#3776#4331#0" expanded="false" />
+            <element signature="e#4454#4543#0" expanded="false" />
+            <element signature="e#4675#4718#0" expanded="false" />
+            <element signature="e#4792#4814#0" expanded="false" />
+            <element signature="e#4822#4916#0" expanded="false" />
+            <element signature="e#5067#5571#0" expanded="false" />
+            <element signature="e#5697#5775#0" expanded="false" />
+            <element signature="e#5906#5949#0" expanded="false" />
+            <element signature="e#6023#6045#0" expanded="false" />
+            <element signature="e#6053#6146#0" expanded="false" />
+            <element signature="e#6295#6753#0" expanded="false" />
+            <element signature="e#6876#6945#0" expanded="false" />
+            <element signature="e#7159#7202#0" expanded="false" />
+            <element signature="e#7278#7300#0" expanded="false" />
+            <element signature="e#7308#7406#0" expanded="false" />
+            <element signature="e#7559#8173#0" expanded="false" />
+            <element signature="e#8299#8401#0" expanded="false" />
+            <element signature="e#8536#8579#0" expanded="false" />
+            <element signature="e#8655#8677#0" expanded="false" />
+            <element signature="e#8685#8783#0" expanded="false" />
+            <element signature="e#8936#9496#0" expanded="false" />
+            <element signature="e#9622#9713#0" expanded="false" />
+            <element signature="e#9847#9890#0" expanded="false" />
+            <element signature="e#9966#9988#0" expanded="false" />
+            <element signature="e#9996#10092#0" expanded="false" />
+            <element signature="e#10247#10756#0" expanded="false" />
+            <element signature="e#10885#10965#0" expanded="false" />
+            <element signature="e#11098#11141#0" expanded="false" />
+            <element signature="e#11217#11239#0" expanded="false" />
+            <element signature="e#11247#11342#0" expanded="false" />
+            <element signature="e#11495#11958#0" expanded="false" />
+            <element signature="e#12084#12155#0" expanded="false" />
+            <element signature="e#12432#12728#0" expanded="false" />
+            <element signature="e#12822#13118#0" expanded="false" />
+            <element signature="e#13214#13512#0" expanded="false" />
+            <element signature="e#13606#13902#0" expanded="false" />
+            <element signature="e#13998#14296#0" expanded="false" />
+            <element signature="e#14392#14690#0" expanded="false" />
+            <element signature="e#14788#15088#0" expanded="false" />
+            <element signature="e#15184#15482#0" expanded="false" />
           </folding>
         </state>
       </provider>

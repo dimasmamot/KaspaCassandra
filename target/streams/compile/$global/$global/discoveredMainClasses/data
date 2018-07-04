@@ -1,1 +1,1 @@
-["me.mamotis.spark.jobs.CassandraStreamJob"]
+["me.mamotis.spark.jobs.CassandraEventStreamJob","me.mamotis.spark.jobs.CassandraSignatureStreamJob"]

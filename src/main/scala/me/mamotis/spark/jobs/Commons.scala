@@ -10,18 +10,47 @@ object Commons {
                       priority: Integer, sig_id: Integer, sig_gen: Integer,
                       sig_rev: Integer, src_country: String) extends Serializable
 
-  case class EventHitObjSec(company: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+  case class EventHitCompanyObjSec(company: String, year: Integer, month: Integer, day: Integer, hour: Integer,
                             minute: Integer, second: Integer, value: Long) extends Serializable
 
-  case class EventHitObjMin(company: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+  case class EventHitCompanyObjMin(company: String, year: Integer, month: Integer, day: Integer, hour: Integer,
                             minute: Integer, value: Long) extends Serializable
 
-  case class EventHitObjHour(company: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+  case class EventHitCompanyObjHour(company: String, year: Integer, month: Integer, day: Integer, hour: Integer,
                              value: Long) extends Serializable
 
-  case class EventHitObjDay(company: String, year: Integer, month: Integer, day: Integer, value: Long) extends Serializable
+  case class EventHitCompanyObjDay(company: String, year: Integer, month: Integer, day: Integer, value: Long) extends Serializable
 
-  case class EventHitObjMonth(company: String, year: Integer, month: Integer, value: Long) extends Serializable
+  case class EventHitDeviceIdObjSec(device_id: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                    minute: Integer, second: Integer, value: Long) extends Serializable
 
-  case class EventHitObjYear(company: String, year: Integer, value: Long) extends Serializable
+  case class EventHitDeviceIdObjMin(device_id: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                    minute: Integer, value: Long) extends Serializable
+
+  case class EventHitDeviceIdObjHour(device_id: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                     value: Long) extends Serializable
+
+  case class EventHitDeviceIdObjDay(device_id: String, year: Integer, month: Integer, day: Integer, value: Long) extends Serializable
+
+  case class SignatureHitCompanyObjSec(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                       minute: Integer, second: Integer, value: Long) extends Serializable
+
+  case class SignatureHitCompanyObjMin(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                       minute: Integer, value: Long) extends Serializable
+
+  case class SignatureHitCompanyObjHour(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                        value: Long) extends Serializable
+
+  case class SignatureHitCompanyObjDay(company: String, alert_msg: String, year: Integer, month: Integer, day: Integer, value: Long) extends Serializable
+
+  case class SignatureHitDeviceIdObjSec(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                        minute: Integer, second: Integer, value: Long) extends Serializable
+
+  case class SignatureHitDeviceIdObjMin(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                        minute: Integer, value: Long) extends Serializable
+
+  case class SignatureHitDeviceIdObjHour(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, hour: Integer,
+                                         value: Long) extends Serializable
+
+  case class SignatureHitDeviceIdObjDay(device_id: String, alert_msg: String, year: Integer, month: Integer, day: Integer, value: Long) extends Serializable
 }
