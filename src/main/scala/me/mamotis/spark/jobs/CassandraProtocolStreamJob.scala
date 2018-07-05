@@ -9,7 +9,7 @@ import org.apache.spark.sql.functions.{col, from_unixtime, lit, to_utc_timestamp
 import org.joda.time.DateTime
 import org.apache.spark.sql.types.StringType
 
-object CassandraProtocolStreamJob {
+object CassandraProtocolStreamJob extends CassandraUtils{
 
   def main(args: Array[String]): Unit = {
 

@@ -10,7 +10,7 @@ object Statements extends Serializable {
                      hour: Integer, minute: Integer, second: Integer, protocol: String, ip_type: String, src_mac: String,
                      dest_mac: String, src_ip: String, dest_ip: String, src_port: Integer, dst_port: Integer,
                      alert_msg: String, classification: Integer, priority: Integer, sig_id: Integer,
-                     sig_gen: Integer, sig_rev: Integer, src_country: String): String =
+                     sig_gen: Integer, sig_rev: Integer, src_country: String, dst_country: String): String =
                         s"""
                            |INSERT INTO kaspa.raw_data_by_company ("id", "company", "device_id", "year", "month", "day", "hour", "minute", "second",
                            |"protocol", "ip_type", "src_mac", "dest_mac", "src_ip", "dest_ip", "src_port", "dst_port",
@@ -24,7 +24,7 @@ object Statements extends Serializable {
                                hour: Integer, minute: Integer, second: Integer, protocol: String, ip_type: String, src_mac: String,
                                dest_mac: String, src_ip: String, dest_ip: String, src_port: Integer, dst_port: Integer,
                                alert_msg: String, classification: Integer, priority: Integer, sig_id: Integer,
-                               sig_gen: Integer, sig_rev: Integer, src_country: String): String =
+                               sig_gen: Integer, sig_rev: Integer, src_country: String, dst_country: String): String =
                                   s"""
                                      |INSERT INTO kaspa.raw_data_by_device_id ("id", "company", "device_id", "year", "month", "day", "hour", "minute", "second",
                                      |"protocol", "ip_type", "src_mac", "dest_mac", "src_ip", "dest_ip", "src_port", "dst_port",
@@ -318,5 +318,231 @@ object Statements extends Serializable {
                                       s"""
                                          |INSERT INTO kaspa.protocol_by_dport_hit_on_device_id_day ("device_id", "protocol", "dst_port,  "year", "month", "day",
                                          |"value") values ('$device_id', '$protocol', $dst_port, $year, $month, $day, $value)
+                                       """.stripMargin
+
+//  IP + Country Query Related
+
+  def push_ip_source_hit_company_second(company: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                        second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_company_sec ("company", "src_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$company', '$src_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_ip_source_hit_company_minute(company: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                        value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_company_minute ("company", "src_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$company', '$src_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_ip_source_hit_company_hour(company: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_company_hour ("company", "src_ip", "country,  "year", "month", "day",
+                                         |"hour", "value") values ('$company', '$src_ip', $country, $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_ip_source_hit_company_day(company: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_company_day ("company", "src_ip", "country,  "year", "month", "day",
+                                         |"value") values ('$company', '$src_ip', $country, $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_ip_source_hit_device_id_second(device_id: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                          second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_device_id_sec ("device_id", "src_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$device_id', '$src_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_ip_source_hit_device_id_minute(device_id: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                          value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_device_id_minute ("device_id", "src_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$device_id', '$src_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_ip_source_hit_device_id_hour(device_id: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_device_id_hour ("device_id", "src_ip", "country,  "year", "month", "day",
+                                         |"hour", "value") values ('$device_id', '$src_ip', $country, $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_ip_source_hit_device_id_day(device_id: String, src_ip: String, country: String,  year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_source_hit_on_device_id_day ("device_id", "src_ip", "country,  "year", "month", "day",
+                                         |"value") values ('$device_id', '$src_ip', $country, $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_company_second(company: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                      second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_company_sec ("company", "dest_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$company', '$dest_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_company_minute(company: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                      value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_company_minute ("company", "dest_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$company', '$dest_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_company_hour(company: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_company_hour ("company", "dest_ip", "country,  "year", "month", "day",
+                                         |"hour", "value") values ('$company', '$dest_ip', $country, $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_company_day(company: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_company_day ("company", "dest_ip", "country,  "year", "month", "day",
+                                         |"value") values ('$company', '$dest_ip', $country, $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_device_id_second(device_id: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                        second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_device_id_sec ("device_id", "dest_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$device_id', '$dest_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_device_id_minute(device_id: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                        value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_device_id_minute ("device_id", "dest_ip", "country,  "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$device_id', '$dest_ip', $country, $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_device_id_hour(device_id: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_device_id_hour ("device_id", "dest_ip", "country,  "year", "month", "day",
+                                         |"hour", "value") values ('$device_id', '$dest_ip', $country, $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_ip_dest_hit_device_id_day(device_id: String, dest_ip: String, country: String,  year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.ip_dest_hit_on_device_id_day ("device_id", "dest_ip", "country,  "year", "month", "day",
+                                         |"value") values ('$device_id', '$dest_ip', $country, $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_company_second(company: String, src_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                         second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_source_hit_on_company_sec ("company", "src_country", "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$company', '$src_country', $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_company_minute(company: String, src_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                         value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_source_hit_on_company_minute ("company", "src_country", "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$company', '$src_country', $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_company_hour(company: String, src_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_source_hit_on_company_hour ("company", "src_country", "year", "month", "day",
+                                         |"hour", "value") values ('$company', '$src_country', $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_company_day(company: String, src_country: String, year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_source_hit_on_company_day ("company", "src_country", "year", "month", "day",
+                                         |"value") values ('$company', '$src_country', $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_device_id_second(device_id: String, src_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                           second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_source_hit_on_device_id_sec ("device_id", "src_country", "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$device_id', '$src_country', $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_device_id_minute(device_id: String, src_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                           value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_source_hit_on_device_id_minute ("device_id", "src_country", "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$device_id', '$src_country', $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_device_id_hour(device_id: String, src_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_source_hit_on_device_id_hour ("device_id", "src_country", "year", "month", "day",
+                                         |"hour", "value") values ('$device_id', '$src_country', $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_country_source_hit_device_id_day(device_id: String, src_country: String, year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_hit_source_on_device_id_day ("device_id", "src_country", "year", "month", "day",
+                                         |"value") values ('$device_id', '$src_country', $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_company_second(company: String, dest_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                           second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_dest_hit_on_company_sec ("company", "dest_country", "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$company', '$dest_country', $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_company_minute(company: String, dest_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                           value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_dest_hit_on_company_minute ("company", "dest_country", "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$company', '$dest_country', $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_company_hour(company: String, dest_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_dest_hit_on_company_hour ("company", "dest_country", "year", "month", "day",
+                                         |"hour", "value") values ('$company', '$dest_country', $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_company_day(company: String, dest_country: String, year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_dest_hit_on_company_day ("company", "dest_country", "year", "month", "day",
+                                         |"value") values ('$company', '$dest_country', $year, $month, $day, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_device_id_second(device_id: String, dest_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                             second: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_dest_hit_on_device_id_sec ("device_id", "dest_country", "year", "month", "day",
+                                         |"hour", "minute", "second", "value") values ('$device_id', '$dest_country', $year, $month,
+                                         |$day, $hour, $minute, $second, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_device_id_minute(device_id: String, dest_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, minute: Integer,
+                                             value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_dest_hit_on_device_id_minute ("device_id", "dest_country", "year", "month", "day",
+                                         |"hour", "minute", "value") values ('$device_id', '$dest_country', $year, $month,
+                                         |$day, $hour, $minute, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_device_id_hour(device_id: String, dest_country: String, year: Integer, month: Integer, day: Integer, hour: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_dest_hit_on_device_id_hour ("device_id", "dest_country", "year", "month", "day",
+                                         |"hour", "value") values ('$device_id', '$dest_country', $year, $month, $day, $hour, $value)
+                                       """.stripMargin
+
+  def push_country_dest_hit_device_id_day(device_id: String, dest_country: String, year: Integer, month: Integer, day: Integer, value: Long): String =
+                                      s"""
+                                         |INSERT INTO kaspa.country_hit_dest_on_device_id_day ("device_id", "dest_country", "year", "month", "day",
+                                         |"value") values ('$device_id', '$dest_country', $year, $month, $day, $value)
                                        """.stripMargin
 }

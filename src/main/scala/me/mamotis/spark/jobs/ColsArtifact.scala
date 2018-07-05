@@ -6,7 +6,7 @@ object ColsArtifact {
   val colsEventObj = List("company", "device_id", "year", "month", "day", "hour", "minute", "second",
     "protocol", "ip_type", "src_mac", "dest_mac", "src_ip", "dest_ip",
     "src_port", "dst_port", "alert_msg", "classification", "priority",
-    "sig_id", "sig_gen", "sig_rev", "src_country")
+    "sig_id", "sig_gen", "sig_rev", "src_country", "dst_country")
 
   val colsEventHitCompanyObjSec = List("company", "year", "month", "day", "hour", "minute", "second", "value")
 
@@ -93,5 +93,71 @@ object ColsArtifact {
   val colsProtocolByDPortHitDeviceIdObjHour = List("device_id", "protocol", "dst_port", "year", "month", "day", "hour", "value")
 
   val colsProtocolByDPortHitDeviceIdObjDay = List("device_id", "protocol", "dst_port",  "year", "month", "day", "value")
+
+//  IP Source, Ip Dest, Country
+
+  val colsIPSourceHitCompanyObjSec = List("company", "src_ip", "country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsIPSourceHitCompanyObjMin = List("company", "src_ip", "country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsIPSourceHitCompanyObjHour = List("company", "src_ip", "country", "year", "month", "day", "hour", "value")
+
+  val colsIPSourceHitCompanyObjDay = List("company", "src_ip", "country", "year", "month", "day", "value")
+
+  val colsIPSourceHitDeviceIdObjSec = List("device_id", "src_ip", "country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsIPSourceHitDeviceIdObjMin = List("device_id", "src_ip", "country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsIPSourceHitDeviceIdObjHour = List("device_id", "src_ip", "country", "year", "month", "day", "hour", "value")
+
+  val colsIPSourceHitDeviceIdObjDay = List("device_id", "src_ip", "country", "year", "month", "day", "value")
+
+  val colsIPDestHitCompanyObjSec = List("company", "dest_ip", "country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsIPDestHitCompanyObjMin = List("company", "dest_ip", "country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsIPDestHitCompanyObjHour = List("company", "dest_ip", "country", "year", "month", "day", "hour", "value")
+
+  val colsIPDestHitCompanyObjDay = List("company", "dest_ip", "country", "year", "month", "day", "value")
+
+  val colsIPDestHitDeviceIdObjSec = List("device_id", "dest_ip", "country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsIPDestHitDeviceIdObjMin = List("device_id", "dest_ip", "country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsIPDestHitDeviceIdObjHour = List("device_id", "dest_ip", "country", "year", "month", "day", "hour", "value")
+
+  val colsIPDestHitDeviceIdObjDay = List("device_id", "dest_ip", "country", "year", "month", "day", "value")
+
+  val colsCountrySrcHitCompanyObjSec = List("company", "src_country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsCountrySrcHitCompanyObjMin = List("company", "src_country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsCountrySrcHitCompanyObjHour = List("company", "src_country", "year", "month", "day", "hour", "value")
+
+  val colsCountrySrcHitCompanyObjDay = List("company", "src_country", "year", "month", "day", "value")
+
+  val colsCountrySrcHitDeviceIdObjSec = List("device_id", "src_country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsCountrySrcHitDeviceIdObjMin = List("device_id", "src_country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsCountrySrcHitDeviceIdObjHour = List("device_id", "src_country", "year", "month", "day", "hour", "value")
+
+  val colsCountrySrcHitDeviceIdObjDay = List("device_id", "src_country", "year", "month", "day", "value")
+
+  val colsCountryDestHitCompanyObjSec = List("company", "dest_country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsCountryDestHitCompanyObjMin = List("company", "dest_country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsCountryDestHitCompanyObjHour = List("company", "dest_country", "year", "month", "day", "hour", "value")
+
+  val colsCountryDestHitCompanyObjDay = List("company", "dest_country", "year", "month", "day", "value")
+
+  val colsCountryDestHitDeviceIdObjSec = List("device_id", "dest_country", "year", "month", "day", "hour", "minute", "second", "value")
+
+  val colsCountryDestHitDeviceIdObjMin = List("device_id", "dest_country", "year", "month", "day", "hour", "minute", "value")
+
+  val colsCountryDestHitDeviceIdObjHour = List("device_id", "dest_country", "year", "month", "day", "hour", "value")
+
+  val colsCountryDestHitDeviceIdObjDay = List("device_id", "dest_country", "year", "month", "day", "value")
 
 }

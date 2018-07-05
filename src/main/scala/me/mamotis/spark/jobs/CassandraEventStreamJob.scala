@@ -67,7 +67,8 @@ object CassandraEventStreamJob extends CassandraUtils {
       val sig_gen = r.getAs[Long](14).toInt
       val sig_rev = r.getAs[Long](15).toInt
       val company = r.getAs[String](16)
-      val src_country = "placeholder"
+      val src_country = "RUSIA"
+      val dest_country = "INDONESIA"
 
       val date = new DateTime((r.getAs[String](0).toDouble * 1000).toLong)
       val year = date.getYear()
@@ -81,7 +82,7 @@ object CassandraEventStreamJob extends CassandraUtils {
         company, device_id, year, month, day, hour, minute, second,
         protocol, ip_type, src_mac, dest_mac, src_ip, dest_ip,
         src_port, dst_port, alert_msg, classification, priority,
-        sig_id, sig_gen, sig_rev, src_country
+        sig_id, sig_gen, sig_rev, src_country, dest_country
       )
     }.toDF(ColsArtifact.colsEventObj: _*)
 
@@ -89,7 +90,7 @@ object CassandraEventStreamJob extends CassandraUtils {
       $"day", $"hour", $"minute", $"second", $"protocol", $"ip_type",
       $"src_mac", $"dest_mac", $"src_ip", $"dest_ip", $"src_port",
       $"dst_port", $"alert_msg", $"classification", $"priority",
-      $"sig_id", $"sig_gen", $"sig_rev", $"src_country").as[Commons.EventObj]
+      $"sig_id", $"sig_gen", $"sig_rev", $"src_country", $"dest_country").as[Commons.EventObj]
 
 
     //+++++++++++++Push Event Hit Company per Second++++++++++++++++++++++
