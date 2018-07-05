@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c55fa93-92a4-4838-8ce6-eae63b8d3dc4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraIPCountryStreamJob.scala" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraEventStreamJob.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraProtocolStreamJob.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraProtocolStreamJob.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Commons.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/PushArtifact.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala" afterPath="$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala" />
-    </list>
+    <list default="true" id="5c55fa93-92a4-4838-8ce6-eae63b8d3dc4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -29,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CassandraIPCountryStreamJob.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CassandraIPCountryStreamJob.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraIPCountryStreamJob.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2688">
-              <caret line="1645" column="39" lean-forward="true" selection-start-line="1645" selection-start-column="39" selection-end-line="1645" selection-end-column="39" />
+            <state relative-caret-position="326">
+              <caret line="1674" column="18" lean-forward="true" selection-start-line="1674" selection-start-column="18" selection-end-line="1674" selection-end-column="18" />
               <folding>
                 <element signature="e#31#56#0" expanded="true" />
                 <element signature="e#1746#1990#0" expanded="false" />
@@ -234,6 +225,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Statements.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1144">
+              <caret line="439" column="100" lean-forward="false" selection-start-line="439" selection-start-column="100" selection-end-line="439" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ColsArtifact.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/ColsArtifact.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -297,9 +298,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1280" />
-    <option name="height" value="504" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="638" />
+    <option name="width" value="636" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -596,7 +598,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1284" height="1001" extended-state="6" />
+    <frame x="638" y="0" width="636" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -613,7 +615,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2746365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5330296" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -670,7 +672,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -683,6 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2941">
           <caret line="173" column="46" lean-forward="true" selection-start-line="173" selection-start-column="46" selection-end-line="173" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -698,6 +701,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,6 +716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,6 +732,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="96" column="11" lean-forward="false" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,6 +740,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -748,6 +755,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,6 +791,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,6 +827,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -846,6 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -874,6 +885,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1905">
           <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,6 +928,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,6 +950,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -980,13 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="299" column="72" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="299" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1586">
-          <caret line="322" column="30" lean-forward="true" selection-start-line="322" selection-start-column="30" selection-end-line="322" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1252,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/CassandraIPCountryStreamJob.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="1645" column="39" lean-forward="true" selection-start-line="1645" selection-start-column="39" selection-end-line="1645" selection-end-column="39" />
+        <state relative-caret-position="326">
+          <caret line="1674" column="18" lean-forward="true" selection-start-line="1674" selection-start-column="18" selection-end-line="1674" selection-end-column="18" />
           <folding>
             <element signature="e#31#56#0" expanded="true" />
             <element signature="e#1746#1990#0" expanded="false" />
@@ -1450,6 +1457,14 @@
             <element signature="e#58593#58897#0" expanded="false" />
             <element signature="e#58997#59299#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/me/mamotis/spark/jobs/Statements.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1144">
+          <caret line="439" column="100" lean-forward="false" selection-start-line="439" selection-start-column="100" selection-end-line="439" selection-end-column="100" />
+          <folding />
         </state>
       </provider>
     </entry>
